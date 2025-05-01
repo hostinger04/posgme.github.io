@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Layanan premium top-up game dan penjualan akun Genshin Impact dan Honkai Star Rail">
+    <title>MihoyoPrime | Top-Up Game Premium</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/animasi.css">
+    <link rel="icon" href="assets/gambar/logo.png">
+</head>
+<body>
+    <!-- Elemen Latar Belakang Animasi -->
+    <div class="partikel" id="partikel-js"></div>
+    <div class="elemen-mengambang">
+        <div class="elemen el-1"></div>
+        <div class="elemen el-2"></div>
+        <div class="elemen el-3"></div>
+    </div>
+
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="logo">
+                <img src="assets/gambar/logo.png" alt="Logo MihoyoPrime" width="40" height="40">
+                <h1>MihoyoPrime</h1>
+            </div>
+            <nav class="navigasi-utama">
+                <ul>
+                    <li><a href="#beranda" class="nav-link aktif">Beranda</a></li>
+                    <li><a href="#topup" class="nav-link">Top Up</a></li>
+                    <li><a href="#akun" class="nav-link">Akun Game</a></li>
+                    <li><a href="#tentang" class="nav-link">Tentang Kami</a></li>
+                </ul>
+            </nav>
+            <div class="tombol-auth">
+                <button class="btn btn-outline">Masuk</button>
+                <button class="btn btn-primary">Daftar</button>
+            </div>
+            <button class="tombol-menu-mobile">
+                <i class="fas fa-bars"></i>
+            </button>
+        </div>
+    </header>
+
+    <!-- Navigasi Mobile -->
+    <nav class="navigasi-mobile">
+        <ul>
+            <li><a href="#beranda" class="nav-mobile-link aktif"><i class="fas fa-home"></i> Beranda</a></li>
+            <li><a href="#topup" class="nav-mobile-link"><i class="fas fa-wallet"></i> Top Up</a></li>
+            <li><a href="#akun" class="nav-mobile-link"><i class="fas fa-user"></i> Akun</a></li>
+            <li><a href="#tentang" class="nav-mobile-link"><i class="fas fa-info-circle"></i> Tentang</a></li>
+        </ul>
+    </nav>
+
+    <!-- Konten Utama -->
+    <main>
+        <!-- Section Hero -->
+        <section class="hero" id="beranda">
+            <div class="container">
+                <div class="konten-hero">
+                    <h2 class="judul-hero">Layanan Premium Game</h2>
+                    <p class="subjudul-hero">Top-up cepat dan akun eksklusif untuk Genshin Impact dan Honkai Star Rail</p>
+                    <div class="tombol-hero">
+                        <button class="btn btn-primary btn-lg">Top Up Sekarang</button>
+                        <button class="btn btn-outline btn-lg">Lihat Akun</button>
+                    </div>
+                </div>
+                <div class="gambar-hero">
+                    <img src="assets/gambar/genshin-impact-bg.jpg" alt="Genshin Impact" class="img-hero">
+                </div>
+            </div>
+        </section>
+
+        <!-- Section Fitur -->
+        <section class="fitur">
+            <div class="container">
+                <div class="header-section">
+                    <h3 class="judul-section">Kenapa Memilih Kami?</h3>
+                    <p class="subjudul-section">Kami memberikan layanan terbaik untuk kebutuhan gaming Anda</p>
+                </div>
+                <div class="grid-fitur" id="kontainer-fitur">
+                    <!-- Fitur akan dimuat dari database.json -->
+                </div>
+            </div>
+        </section>
+
+        <!-- Section Top Up -->
+        <section class="section-topup" id="topup">
+            <div class="container">
+                <div class="header-section">
+                    <h3 class="judul-section">Top Up Game</h3>
+                    <p class="subjudul-section">Isi ulang mata uang game dengan cepat dan aman</p>
+                </div>
+                <div class="form-topup">
+                    <form id="formTopup">
+                        <!-- Field form akan dimuat dari JS -->
+                    </form>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section Akun -->
+        <section class="section-akun" id="akun">
+            <div class="container">
+                <div class="header-section">
+                    <h3 class="judul-section">Akun Premium</h3>
+                    <p class="subjudul-section">Akun eksklusif dengan karakter dan item langka</p>
+                </div>
+                <div class="grid-akun" id="kontainer-akun">
+                    <!-- Akun akan dimuat dari database.json -->
+                </div>
+            </div>
+        </section>
+
+        <!-- Section Tentang -->
+        <section class="section-tentang" id="tentang">
+            <div class="container">
+                <div class="konten-tentang">
+                    <h3 class="judul-section">Tentang MihoyoPrime</h3>
+                    <p>Kami adalah penyedia layanan premium untuk game Mihoyo, menawarkan top-up cepat dan akun eksklusif sejak 2020.</p>
+                    <div class="info-kontak">
+                        <div class="item-kontak">
+                            <i class="fas fa-envelope"></i>
+                            <span>support@mihoyoprime.com</span>
+                        </div>
+                        <div class="item-kontak">
+                            <i class="fas fa-phone"></i>
+                            <span>+62 812-3456-7890</span>
+                        </div>
+                    </div>
+                    <div class="tautan-sosmed">
+                        <a href="#" class="link-sosmed"><i class="fab fa-discord"></i></a>
+                        <a href="#" class="link-sosmed"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="link-sosmed"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="grid-footer">
+                <div class="kolom-footer">
+                    <h4>MihoyoPrime</h4>
+                    <p>Layanan premium untuk top-up dan akun game Genshin Impact dan Honkai Star Rail.</p>
+                </div>
+                <div class="kolom-footer">
+                    <h4>Tautan Cepat</h4>
+                    <ul>
+                        <li><a href="#beranda">Beranda</a></li>
+                        <li><a href="#topup">Top Up</a></li>
+                        <li><a href="#akun">Akun Game</a></li>
+                    </ul>
+                </div>
+                <div class="kolom-footer">
+                    <h4>Bantuan</h4>
+                    <ul>
+                        <li><a href="#">FAQ</a></li>
+                        <li><a href="#">Hubungi Kami</a></li>
+                        <li><a href="#">Kebijakan Privasi</a></li>
+                    </ul>
+                </div>
+                <div class="kolom-footer">
+                    <h4>Panel Admin</h4>
+                    <div class="panel-admin">
+                        <table id="tabel-admin">
+                            <thead>
+                                <tr>
+                                    <th>Akun</th>
+                                    <th>Status</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <!-- Akan diisi oleh JS -->
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bawah">
+                <p>&copy; 2023 MihoyoPrime. Semua hak dilindungi.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Notifikasi -->
+    <div class="notifikasi" id="notifikasi">
+        <div class="konten-notifikasi">
+            <i class="fas fa-check-circle"></i>
+            <span id="pesan-notifikasi">Permintaan pembelian dikirim ke admin</span>
+        </div>
+    </div>
+
+    <!-- Script -->
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    <script src="js/animasi.js"></script>
+    <script src="js/api.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
