@@ -1,0 +1,146 @@
+{
+    "fitur": [
+        {
+            "id": "fitur-1",
+            "icon": "fas fa-bolt",
+            "judul": "Pengiriman Instan",
+            "deskripsi": "Top-up Anda akan diproses dalam hitungan menit dengan sistem otomatis kami."
+        },
+        {
+            "id": "fitur-2",
+            "icon": "fas fa-shield-alt",
+            "judul": "100% Aman",
+            "deskripsi": "Semua transaksi dilindungi dengan sistem keamanan berlapis."
+        },
+        {
+            "id": "fitur-3",
+            "icon": "fas fa-headset",
+            "judul": "Dukungan 24/7",
+            "deskripsi": "Tim layanan pelanggan kami siap membantu Anda kapan saja."
+        }
+    ],
+    "game": [
+        {
+            "id": "genshin-impact",
+            "nama": "Genshin Impact",
+            "mataUang": "Genesis Crystal",
+            "nominal": [
+                {
+                    "id": "gc-60",
+                    "nilai": "60",
+                    "harga": "Rp 15.000"
+                },
+                {
+                    "id": "gc-300",
+                    "nilai": "300 + 30",
+                    "harga": "Rp 75.000"
+                },
+                {
+                    "id": "gc-980",
+                    "nilai": "980 + 110",
+                    "harga": "Rp 245.000"
+                },
+                {
+                    "id": "gc-1980",
+                    "nilai": "1980 + 260",
+                    "harga": "Rp 490.000"
+                }
+            ]
+        },
+        {
+            "id": "honkai-star-rail",
+            "nama": "Honkai Star Rail",
+            "mataUang": "Oneiric Shard",
+            "nominal": [
+                {
+                    "id": "os-60",
+                    "nilai": "60",
+                    "harga": "Rp 15.000"
+                },
+                {
+                    "id": "os-300",
+                    "nilai": "300 + 30",
+                    "harga": "Rp 75.000"
+                },
+                {
+                    "id": "os-980",
+                    "nilai": "980 + 110",
+                    "harga": "Rp 245.000"
+                }
+            ]
+        }
+    ],
+    "server": [
+        {
+            "id": "asia",
+            "nama": "Asia"
+        },
+        {
+            "id": "europe",
+            "nama": "Eropa"
+        },
+        {
+            "id": "america",
+            "nama": "Amerika"
+        }
+    ],
+    "metodePembayaran": [
+        {
+            "id": "kartu-kredit",
+            "nama": "Kartu Kredit"
+        },
+        {
+            "id": "e-wallet",
+            "nama": "E-Wallet (OVO/Gopay/Dana)"
+        },
+        {
+            "id": "transfer-bank",
+            "nama": "Transfer Bank"
+        },
+        {
+            "id": "qris",
+            "nama": "QRIS"
+        }
+    ],
+    "akun": [
+        {
+            "id": "akun-1",
+            "game": "Genshin Impact",
+            "judul": "AR 55",
+            "gambar": "genshin-akun-1.jpg",
+            "karakter": ["Hu Tao", "Zhongli", "Raiden"],
+            "bintangLima": 12,
+            "harga": "Rp 1.250.000",
+            "status": "tersedia",
+            "statusTeks": "Tersedia"
+        },
+        {
+            "id": "akun-2",
+            "game": "Honkai Star Rail",
+            "judul": "TL 60",
+            "gambar": "honkai-akun-1.jpg",
+            "karakter": ["Kafka", "Silver Wolf", "Seele"],
+            "bintangLima": 8,
+            "harga": "Rp 950.000",
+            "status": "tersedia",
+            "statusTeks": "Tersedia"
+        },
+        {
+            "id": "akun-3",
+            "game": "Genshin Impact",
+            "judul": "AR 50",
+            "gambar": "genshin-akun-2.jpg",
+            "karakter": ["Ayaka", "Ganyu", "Kazuha"],
+            "bintangLima": 9,
+            "harga": "Rp 850.000",
+            "status": "disewa",
+            "statusTeks": "Disewa"
+        }
+    ],
+    "transaksiPending": [
+        {
+            "akun": "Genshin Impact AR 50",
+            "status": "Diproses"
+        }
+    ]
+}
